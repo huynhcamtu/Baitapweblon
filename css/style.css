@@ -1,0 +1,130 @@
+
+
+.container-fluid {
+    position: relative;
+    padding: 0 !important;
+    display: block;
+}
+
+.poster {
+    transition: ease 1s;
+    position: relative;
+    margin: .625rem 6.5%;
+    align-items: center !important;
+    text-align: center;
+    justify-content: center !important;
+}
+
+.products>img {
+    box-shadow: 0rem 0rem .3125rem .5125rem rgba(10, 27, 24, 0.397);
+}
+
+.bts {
+    position: relative;
+    display: block;
+    inline-size: 100%;
+    block-size: 2.5rem;
+    align-items: center !important;
+    text-align: center;
+    justify-content: center !important;
+    margin: 2.5rem .625rem 0rem 0rem;
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+.clickbts {
+    position: relative;
+    display: flex;
+    font-weight: 600;
+    align-items: center !important;
+    text-align: center;
+    justify-content: center !important;
+}
+
+.click1 {
+    font-size: 1.125rem;
+    border: none;
+    background-color: white;
+    margin: .625rem;
+    /* border-block-end: .0625rem solid black; */
+}
+
+.click2 {
+    font-size: 1.125rem;
+    border: none;
+    background-color: white;
+    margin: .625rem;
+}
+
+.click3 {
+    font-size: 1.125rem;
+    border: none;
+    background-color: white;
+    margin: .625rem;
+}
+
+#listProducts_nam, #listProducts_nu {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.borderProducts {
+    position: relative;
+    margin: 2.5rem 4.6875rem 2.5rem 4.6875rem;
+    block-size: 37.5rem;
+    cursor: pointer;
+}
+
+img {
+    border-radius: 5%;
+}
+
+.products {
+    position: relative;
+    inline-size: 100%;
+    block-size: 30rem;
+}
+
+.content {
+    font-size: 1.25rem;
+}
+
+.price {
+    font-size: 1.125rem;
+    color: red;
+}
+
+#btnMore_nu, #btnMore_nam {
+    position: relative;
+    inline-size: 18.75rem;
+    block-size: 3.125rem;
+    border-radius: .625rem;
+    inset-inline-start: 50%;
+    transform: translateX(-50%);
+    margin-block-end: 1.875rem;
+}
+
+
+.homepage {
+    color: black !important;
+    text-decoration: none;
+}
+
+.img-fluid {
+    transition: ease 1s;
+}
+
+
+
+
+
+
+.img-fluid:hover {
+    scale: 0.95;
+}
+
+.poster:hover {
+    scale: 1.05;
+    border-radius: 15%;
+}

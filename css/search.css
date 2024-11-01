@@ -1,0 +1,28 @@
+#searchInput{
+    position: relative;
+    inset-inline-start: 10.75rem;
+    border-radius: 1.25rem;
+    opacity: 0.8;
+}
+#searchInput:active,#searchInput:hover{
+    opacity: 1;
+}
+.d-flex{
+    position: relative;
+    inset-inline-start: 10.25rem;
+}
+#searchResults {
+    position: absolute;
+    inset-inline-start: 10.75rem;
+    inset-block-start: 2.5rem;
+    inline-size: 20rem;
+    max-block-size:10.5rem;
+    block-size: auto;
+    background-color: white;
+    color: black;
+    overflow-y: auto;
+    display: none;
+}
+#searchResults p {
+    margin: .3125rem 0;
+}

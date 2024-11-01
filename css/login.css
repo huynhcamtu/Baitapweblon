@@ -1,0 +1,97 @@
+body{
+    block-size: 62.5rem !important;
+}
+.login {
+    padding: 4.375rem 0;
+    position: absolute;
+    inset-inline-start: 32%;
+    inset-block-start: 5%;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    block-size: 50.5rem;
+}
+.thongbao{
+    font-weight: 1000;
+}
+
+.borderLogin {
+    position: relative;
+    inline-size: 43.75rem;
+    block-size: 43.75rem;
+    border: .125rem solid pink;
+    border-radius: 2%;
+    /* box-shadow: 0rem .3125rem .625rem .625rem orange; */
+    background: linear-gradient(90deg, rgba(35, 213, 171, 0.5), rgba(231, 60, 126, 0.5), rgb(35, 166, 213, 0.5), rgba(238, 119, 82, 0.5));
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+}
+
+.borderLogin>h1 {
+    position: relative;
+    inset-block-start: 10%;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+    font-size: 2.5rem;
+    margin-block-end: 1.25rem;
+}
+
+.borderLogin>form {
+    inline-size: 100%;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    inset-block-start: 10%;
+    display: block;
+}
+
+.borderLogin>form>label {
+    inline-size: 100%;
+    font-size: 1.5625rem;
+    margin-inline-end: 3.125rem;
+}
+
+.borderLogin>form>input {
+    border-radius: 1.25rem;
+    padding: .3125rem;
+    padding-inline-start: 1.25rem;
+    inline-size: 31.25rem;
+}
+
+.lbsdt {
+    position: relative;
+
+}
+
+.ip {
+    margin: .3125rem 0rem;
+}
+
+.inputsdt {
+    inline-size: 18.125rem !important;
+    margin-inline-end: 3.125rem;
+}
+
+select {
+    border-radius: .625rem;
+    inline-size: 9.375rem;
+    block-size: 2.5rem;
+}
+.borderLogin>form>a{
+    float: inline-end;
+    position: relative;
+    inset-inline-end: 9.375rem;
+    margin: 1.25rem 0;
+}
+.borderLogin>form>button{
+    inline-size: 60%;
+    position: relative;
+    inset-inline-start: 1.25rem;
+    block-size: 3.125rem;
+    border-radius: .625rem;
+    margin: 1.25rem;
+    background-color: white;
+}

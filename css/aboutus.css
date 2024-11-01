@@ -1,0 +1,196 @@
+
+.left {
+    inline-size: 100%;
+    block-size: auto;
+    padding: 2.125rem 15.25rem;
+}
+section {
+    position: relative;
+    inline-size: 100%;
+    block-size: 65.625rem !important;
+    display: flex;
+}
+.right {
+    inline-size: 100%;
+    block-size: 100%;
+}
+img{
+    border-radius: 1.25rem;
+}
+.container{
+    position: relative;
+    inset-inline-start: -6.25rem;
+}
+.text{
+    inline-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    text-shadow: .125rem .125rem #fa5c00;
+    text-align: center;
+    padding: 9.375rem 0;
+}
+.text>h1{
+    font-size: 5.625rem;
+    font-weight: 1000;
+}
+.text>h2{
+    font-size: 5rem;
+    font-weight: 800;
+}
+.text>h3{
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+.slider {
+    inline-size: 33.75rem;
+    block-size: 60rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider__list {
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    block-size: 100%;
+    inline-size: 100%;
+    display: flex;
+    transition: 1.5s;
+}
+
+.slider__list img {
+    min-inline-size: 100%;
+    block-size: 100%;
+}
+
+.slider__buttons {
+    position: absolute;
+    inset-block-start: 50%;
+    inset-inline-start: 1.25rem;
+    inline-size: 95%;
+    padding-inline-start: .9375rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__buttons button {
+    background-color: transparent;
+    border: none;
+}
+
+.slider__buttons i {
+    inline-size: 3.125rem;
+    block-size: 3.125rem;
+    line-height: 3.125rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1.875rem;
+}
+
+.slider__buttons button i:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.slider__dots {
+    position: absolute;
+    inset-block-end: .625rem;
+    inset-inline-start: 0;
+    color: #fff;
+    inline-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.slider__dots li {
+    list-style: none;
+    inline-size: .9375rem;
+    block-size: .9375rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: .625rem;
+    border-radius: 1.25rem;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.slider__dots li.active {
+    inline-size: 2.5rem;
+}
+
+
+.item {
+    position: relative;
+    display: flex;
+}
+.text>h3{
+    color: black;
+}
+.borderAboutMe {
+    scale: 2;
+    text-align: center;
+    position: relative;
+    color: #66e8f1;
+    margin-block-start: 3.125rem;
+    inline-size: 12.5rem;
+    block-size: 8.125rem;
+    inset-inline-start: 40%;
+}
+
+
+.about_us {
+    position: relative;
+    border-block-end: .0625rem solid rgb(230, 210, 30);
+    font-size: 2.5rem;
+    font-weight: 800;
+    border-radius: 31%;
+    box-shadow: rgb(253, 5, 241) .0625rem .0625rem .2rem .1875rem;
+}
+
+.social-icon {
+    position: relative;
+    margin-block-start: 1.25rem;
+    inset-inline-start: -50%;
+    display: flex;
+}
+
+.social-icon li {
+    list-style: none;
+    transition: ease 0.2s;
+}
+
+.social-icon li a:hover {
+    scale: 1.5;
+}
+
+.social-icon li a {
+    background-color: rgb(228, 0, 0);
+    display: inline-block;
+    inline-size: 2.5rem;
+    block-size: 2.5rem;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline-end: .625rem;
+    text-decoration: none;
+    border-radius: .25rem;
+}
+
+.social-icon li a:hover {
+    background: rgb(255, 255, 255);
+}
+
+.social-icon li a {
+    font-size: 1.4375rem;
+}
+
+.borderContact {
+    position: relative;
+    color: #66e8f1;
+    inset-block-start: 20%;
+    inset-inline-start: 20%;
+    inline-size: 12.5rem;
+    block-size: 7.5rem;
+}

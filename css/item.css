@@ -1,0 +1,113 @@
+section {
+    position: relative;
+    inline-size: 100%;
+    block-size: 65rem !important;
+    display: flex;
+}
+
+.left {
+    inline-size: 100%;
+    block-size: 100%;
+    padding: 1.125rem 11.25rem;
+}
+
+.right {
+    inline-size: 100%;
+    block-size: 100%;
+    padding: 1.125rem 0;
+}
+
+#imgItem {
+    position: relative;
+    inline-size: 40.5625rem;
+    block-size: 55.5625rem;
+}
+#content_information_item_minus,
+#content_information_item_increase {
+    padding: .8125rem 1.25rem;
+    background-color: gainsboro;
+    border: none;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+#content_information_item_minus:hover,
+#content_information_item_increase:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#content_information_item_numbers {
+    padding: .8125rem;
+    inline-size: 3.125rem;
+    border-radius: .25rem;
+    text-align: center;
+}
+.content_information_item_counter{
+    position: relative;
+    inset-inline-start: 12.5rem;
+}
+.content_information_item_buy {
+    display: flex;
+    margin-block-start: 3.125rem;
+    padding-block-end: 1.25rem;
+}
+
+.content_information_item_buy_add {
+    margin: 1.25rem 0 0 3.125rem;
+    padding: .8125rem;
+    inline-size: 13.75rem;
+    border-radius: .5rem;
+    background-color: white;
+    color: orange;
+    font-size: .9375rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: .0625rem solid orange;
+    transition: transform 0.3s ease-out;
+}
+.content_information_item_buy_now{
+    position: relative;
+    inline-size: 60%;
+    block-size: 3.125rem;
+    border-radius: .625rem;
+    border:none;
+    background-color: orange;
+    color:  white;
+    inset-inline-start: 13%;
+}
+.img-fluid{
+    border-radius: 1.25rem;
+    transition: ease 0.5s;
+    box-shadow: 0rem 0rem .3125rem .5125rem rgba(10, 27, 24, 0.397);
+}
+.img-fluid:hover{
+    scale:1.1;
+}
+.top{
+    inline-size: 100%;
+    padding: 3.125rem 0;
+    block-size: 31.25rem;
+    /* background-color: rgb(216, 177, 177); */
+}
+.itemName{
+    font-size: 1.875rem;
+}
+.itemPrice{
+    font-size: 2.1875rem;
+    font-weight: 600;
+    color: red;
+}
+.itemColor{
+    font-size: 1.25rem;
+}
+.itemSizes{
+    font-size: 1.25rem;
+}
+.information_header{
+    margin-block-start: 6.25rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
+p{
+    font-size: 1.25rem;
+}

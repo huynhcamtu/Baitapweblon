@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.container-fluid {
+    position: relative;
+    padding: 0 !important;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #23d5ab, #e73c7e, #23a6d5, #ee7752);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+}
+
+.nav-item {
+    position: relative;
+    inline-size: 12.5rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+li a {
+    position: relative;
+    inset-inline-start: 1.25rem;
+    margin-inline-start: 1.25rem;
+    color: rgb(255, 255, 255) !important;
+    font-size: 1.5625rem;
+    /* background-color: white; */
+    /* border: .125rem solid rgb(0, 0, 0); */
+    /* border-radius: 1.25rem; */
+    transition: 0.5 ease;
+    inline-size: 9.375rem;
+}
+
+li a:hover {
+    font-weight: 1000;
+    color: aqua !important;
+    /* background-color: black; */
+    /* border-color: white; */
+}
+
+.carousel-control-prev {
+    background-color: gray;
+}
+
+.dropdown-menu {
+    color: aqua !important;
+    background-color: darkslategray !important;
+}
+
+.poster {
+    position: relative;
+    margin: .625rem 6.5%;
+    align-items: center !important;
+    text-align: center;
+    justify-content: center !important;
+    transition: ease 1s;
+}
+
+section {
+    display: flex;
+}
+
+
+.left {
+    position: relative;
+    block-size: auto;
+    display: block;
+    inline-size: auto;
+}
+
+.right {
+    position: relative;
+    display: block;
+    position: relative;
+    block-size: auto;
+}
+
+#listProducts_nu {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    inline-size: 100%;
+}
+
+.borderProducts_medium {
+    position: relative;
+    block-size: 37.5rem;
+    inset-inline-start: 1.5625rem;
+    margin: .625rem 3.125rem 3.125rem 3.125rem;
+    cursor: pointer;
+}
+
+img {
+    border-radius: 5%;
+}
+
+.products_medium>img {
+    box-shadow: 0rem 0rem .3125rem .5125rem rgba(10, 27, 24, 0.397);
+}
+
+.products_medium {
+    position: relative;
+    inline-size: 100%;
+    block-size: 33.75rem;
+}
+
+.content_medium {
+    font-size: 1.25rem;
+}
+
+.price_medium {
+    font-size: 1.125rem;
+    color: red;
+}
+
+.range {
+    position: relative;
+    display: flex;
+}
+
+.rangeText {
+    position: relative;
+    margin: 1.25rem;
+    block-size: 2.1875rem;
+    inset-inline-start: 6.25rem;
+    font-size: 1.5625rem;
+}
+
+.form-select {
+    position: relative;
+    margin: 1.25rem;
+    inline-size: 9.375rem !important;
+    block-size: 2.1875rem;
+    inset-inline-start: 5rem;
+}
+
+.girlFashion {
+    position: relative;
+    padding: 1.5625rem;
+    inset-inline-start: 5rem;
+}
+
+.borderOption {
+    position: relative;
+    padding: 0 1.875rem;
+    inset-inline-start: 6.25rem;
+}
+
+
+
+.item {
+    position: relative;
+    display: flex;
+}
+
+
+
+
+.about_us {
+    position: relative;
+    border-block-end: .0625rem solid rgb(230, 210, 30);
+    font-size: 2.5rem;
+    font-weight: 800;
+    border-radius: 31%;
+    box-shadow: rgb(89, 243, 69) 0rem .0625rem;
+}
+
+.social-icon {
+    position: relative;
+    margin-block-start: 1.25rem;
+    inset-inline-start: -14%;
+    display: flex;
+}
+
+.social-icon li {
+    list-style: none;
+}
+
+.social-icon li a {
+    display: inline-block;
+    inline-size: 2.5rem;
+    block-size: 2.5rem;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline-end: .625rem;
+    text-decoration: none;
+    border-radius: .25rem;
+}
+
+.social-icon li a:hover {
+    background: rgb(255, 255, 255);
+}
+
+.social-icon li a {
+    font-size: 1.4375rem;
+}
+
+.homepage {
+    color: black !important;
+    text-decoration: none;
+}
+
+.img-fluid {
+    transition: ease 1s;
+}
+
+
+
+
+.btnlogin {
+    text-decoration: none;
+    position: relative;
+    inset-inline-start: -3.125rem;
+    cursor: pointer;
+}
+
+
+.img-fluid:hover {
+    scale: 0.95;
+}
+
+.poster:hover {
+    scale: 1.05;
+    border-radius: 15%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

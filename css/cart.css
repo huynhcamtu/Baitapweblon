@@ -1,0 +1,79 @@
+
+section{
+    block-size: 37.5rem !important;
+}
+
+.empty{
+    inline-size: 25rem;
+    margin: 3.125rem 25rem;
+}
+.col-8>form{
+    margin-inline-start: 12.5rem;
+}
+.col-8>form>textarea{
+    inline-size: 50rem;
+}
+
+.borderPurchase{
+    inline-size: 70%;
+    block-size: auto;
+    background-color: rgb(201, 199, 199);
+    margin-block-start: 3.125rem;
+}
+
+
+.totalPrice{
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+}
+.btn_pay{
+    font-size: 1.4375rem;
+    color: white;
+    background-color: rgba(255, 112, 17, 0.925);
+    inline-size: 90%;
+    block-size: 3.125rem;
+    margin: .625rem 1.25rem;
+}
+.deal{
+    margin: 1.25rem .3125rem;
+}
+
+.cartList{
+    width: 80%;
+    height: 12rem;
+    position: relative;
+    left: 10rem;
+    display: flex;
+}
+
+.cartItemImg{
+    top: .5rem;
+    width: 12%;
+    position: relative;
+    left: 10rem;
+}
+
+.cartItemDetails{
+    position: relative;
+    left: 10rem;
+    top: 2rem;
+}
+
+.cartItemName{
+    font-size: 1.25rem;
+    font-weight: 700;
+    position: relative;
+    left: 2rem;
+}
+.cartItemPrice{
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+}
+.delete{
+    position: relative;
+    left: 15rem;
+    top: 5rem;
+}
